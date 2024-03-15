@@ -1,0 +1,107 @@
+.title {
+  background: rgb(177, 121, 242);
+}
+
+.paddingBottom {
+  margin-bottom: 10px;
+}
+
+.speech_bubble {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  background: white;
+  border-radius: 0.9rem;
+  transform: translate(-50%, -50%);
+}
+
+.speech_bubble:after {
+  position: absolute;
+  bottom: 1px;
+  left: 6%;
+  width: 0;
+  height: 0;
+  margin-bottom: -0.937em;
+  margin-left: -0.469em;
+  border: 0.938em solid transparent;
+  border-top-color: white;
+  border-right: 0;
+  border-bottom: 0;
+  content: '';
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 204px !important;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 44px;
+  text-align: center;
+}
+
+.form_login_container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+  background: inherit;
+  border-radius: 0.9rem !important;
+  padding-inline: 32px;
+  padding-block: 24px;
+}
+
+.form_login_desc {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+  text-align: center;
+  margin-block-end: 40px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  z-index: 1;
+  width: 120px;
+  margin-left: -60px;
+  padding: 5px 0;
+  color: #fff;
+  text-align: center;
+  background-color: #555;
+  border-radius: 6px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-color: #555 transparent transparent transparent;
+  border-style: solid;
+  border-width: 5px;
+  content: '';
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  cursor: pointer;
+  opacity: 1;
+}
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('../../../../public/background.png') no-repeat;
+  background-position: center;
+  background-size: 100%;
+}

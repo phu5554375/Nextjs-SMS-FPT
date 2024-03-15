@@ -1,0 +1,181 @@
+.title {
+  background: rgb(121, 211, 242);
+}
+
+.floatRight {
+  float: right;
+}
+
+.paddingBottom {
+  margin-bottom: 10px;
+}
+.shadow_content {
+  background-color: #fff;
+  border: 1px solid #efefef;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.styeRowAction {
+  display: flex;
+  flex: 1 0 0;
+  align-items: center;
+  align-self: stretch;
+  justify-content: center;
+}
+.my_container_header {
+  background: white;
+  padding-block-start: 8px;
+  padding-block-end: 12px;
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+}
+.my_breadcrumb {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  line-height: 1.5714285714285714;
+  list-style: none;
+  & ol {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  & a {
+    display: inline-block;
+    height: 22px;
+    padding: 0 4px;
+    color: rgba(0, 0, 0, 0.45);
+    border-radius: 4px;
+    transition: color 0.2s;
+    margin-inline: -4px;
+  }
+}
+
+.my_breadcrumb li:last-child {
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.my_breadcrumbSeparator {
+  color: rgba(0, 0, 0, 0.45);
+  margin-inline: 8px;
+}
+.my_headerHeading {
+  display: flex;
+  justify-content: space-between;
+  // padding: 8px;
+}
+.my_headerHeadingLeft {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-block: 4px;
+  margin-inline-end: 0;
+  margin-inline-start: 0;
+}
+.my_headerHeadingTitle {
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.88);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-inline-end: 12px;
+  margin-block-end: 0;
+}
+.my_headerContent {
+  display: flex;
+  align-items: flex-end;
+  align-self: stretch;
+  justify-content: space-between;
+}
+.my_card {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  line-height: 1.5714285714285714;
+  list-style: none;
+  background: #ffffff;
+}
+.my_info {
+  padding: 32px;
+}
+
+.flex__end {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.cus_ant_progress .cus_ant_progress_show_info .cus_ant_progress_outer {
+  margin-inline-end: calc(-2em - 8px);
+  padding-inline-end: calc(2em + 8px);
+}
+.cus_ant_progress .cus_ant_progress_outer {
+  display: flex;
+  width: 100%;
+  height: 6px;
+}
+
+.cus_ant_progress .cus_ant_progress_inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+  background-color: rgba(0, 0, 0, 0.06);
+  border-radius: 100px;
+}
+.cus_ant_progress .cus_ant_error_bg {
+  position: absolute;
+  height: 6px;
+  background-color: #bebebe;
+  border-radius: 100px;
+  transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.cus_ant_progress .cus_ant_invalid_bg {
+  position: absolute;
+  height: 6px;
+  background-color: #bebebe;
+  border-radius: 100px;
+  transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+.cus_ant_progress .cus_ant_progress_bg {
+  // position: absolute;
+  height: 6px;
+  background-color: #1677ff;
+  border-radius: 100px;
+  transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+.cus_ant_progress .cus_ant_progress_success_bg {
+  // position: absolute;
+  height: 6px;
+  background-color: #52c41a;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+}
+.cus_ant_progress .cus_ant_progress_text {
+  display: inline-block;
+  width: 2em;
+  color: rgba(0, 0, 0, 0.88);
+  line-height: 0.2rem;
+  white-space: nowrap;
+  text-align: start;
+  vertical-align: middle;
+  word-break: normal;
+  margin-inline-start: 8px;
+}

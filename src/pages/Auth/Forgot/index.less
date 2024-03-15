@@ -1,0 +1,52 @@
+.title {
+  background: rgb(177, 121, 242);
+}
+
+.paddingBottom {
+  margin-bottom: 10px;
+}
+
+.speech_bubble {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  background: white;
+  border-radius: 0.9rem;
+  transform: translate(-50%, -50%);
+}
+
+.speech_bubble:after {
+  position: absolute;
+  bottom: 1px;
+  left: 6%;
+  width: 0;
+  height: 0;
+  margin-bottom: -0.937em;
+  margin-left: -0.469em;
+  border: 0.938em solid transparent;
+  border-top-color: white;
+  border-right: 0;
+  border-bottom: 0;
+  content: '';
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 204px !important;
+  margin: 0 auto;
+  margin-left: -74px;
+  padding: 2rem;
+  line-height: 44px;
+  text-align: center;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('../../../../public/background.png') no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
